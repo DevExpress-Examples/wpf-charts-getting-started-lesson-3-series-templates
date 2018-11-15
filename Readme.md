@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/DXCharts_Lesson3/MainWindow.xaml)
+* [MainWindow.xaml.cs](./CS/DXCharts_Lesson3/MainWindow.xaml.cs)
+<!-- default file list end -->
 # Charts Getting Started - Lesson 4 - Using Series Template for Auto-Created Series
 
 
