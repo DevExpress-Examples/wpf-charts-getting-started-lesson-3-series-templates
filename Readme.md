@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/Charts_Lesson4/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/Charts_Lesson4/MainWindow.xaml))
+<!-- default file list end -->
 # Charts Getting Started - Lesson 4 - Using Series Template for Auto-Created Series
 
 
