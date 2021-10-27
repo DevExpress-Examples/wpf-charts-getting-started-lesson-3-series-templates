@@ -1,4 +1,4 @@
-<Window x:Class="WpfApplication1.MainWindow"
+<Window x:Class="DXCharts_Lesson3.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:dxc="http://schemas.devexpress.com/winfx/2008/xaml/charts"
@@ -8,21 +8,20 @@
             <dxc:ChartControl.Diagram>
                 <dxc:XYDiagram2D SeriesDataMember="Year">
                     <dxc:XYDiagram2D.SeriesTemplate>
-                        <dxc:BarSideBySideSeries2D ArgumentDataMember="Region" ValueDataMember="GSP">
-                            <dxc:BarSideBySideSeries2D.Label>
-                                <dxc:SeriesLabel Visible="False" />
-                            </dxc:BarSideBySideSeries2D.Label>
-                        </dxc:BarSideBySideSeries2D>
+                        <dxc:BarSideBySideSeries2D ArgumentDataMember="Region" ValueDataMember="GSP" />
                     </dxc:XYDiagram2D.SeriesTemplate>
                     <dxc:XYDiagram2D.AxisX>
                         <dxc:AxisX2D>
                             <dxc:AxisX2D.Label>
-                                <dxc:AxisLabel Staggered="True" />
+                                <dxc:AxisLabel Staggered="True"/>
                             </dxc:AxisX2D.Label>
                         </dxc:AxisX2D>
-                    </dxc:XYDiagram2D.AxisX>
+                    </dxc:XYDiagram2D.AxisX>                   
                 </dxc:XYDiagram2D>
             </dxc:ChartControl.Diagram>
+            <dxc:ChartControl.CrosshairOptions>
+                <dxc:CrosshairOptions ShowArgumentLine="True" ShowValueLine="True" />
+            </dxc:ChartControl.CrosshairOptions>
             <dxc:ChartControl.Legend>
                 <dxc:Legend />
             </dxc:ChartControl.Legend>
