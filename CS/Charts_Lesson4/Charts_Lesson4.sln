@@ -1,8 +1,9 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Charts_Lesson4", "Charts_Lesson4\Charts_Lesson4.vbproj", "{1BFB112A-3551-4A01-B78C-CE9AA6BE4734}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charts_Lesson4", "Charts_Lesson4.csproj", "{1BFB112A-3551-4A01-B78C-CE9AA6BE4734}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88A7F2C9-5B4E-4A70-A89A-F1EF524F88C9}
 	EndGlobalSection
 EndGlobal
