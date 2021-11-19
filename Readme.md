@@ -6,7 +6,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [MainWindow.xaml](./CS/Charts_Lesson4/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/Charts_Lesson4/MainWindow.xaml))
+* [MainWindow.xaml](./CS/Charts_Lesson4/MainWindow.xaml)
 <!-- default file list end -->
 # Chart for WPF - Getting Started - Lesson 3 - Use a Series Template for Auto-Created Series
 
