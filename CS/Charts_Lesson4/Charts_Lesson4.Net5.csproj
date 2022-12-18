@@ -1,8 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <OutputType>WinExe</OutputType>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <UseWPF>true</UseWPF>
     <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
   </PropertyGroup>
@@ -36,20 +43,20 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
     <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
-    <PackageReference Include="DevExpress.Charts.Core" Version="21.2.*-*" />
-    <PackageReference Include="DevExpress.Data" Version="21.2.*-*" />
-    <PackageReference Include="DevExpress.Mvvm" Version="21.2.*-*" />
-    <PackageReference Include="DevExpress.Pdf.Core" Version="21.2.*-*" />
-    <PackageReference Include="DevExpress.Office.Core" Version="21.2.*-*" />
-    <PackageReference Include="DevExpress.RichEdit.Core" Version="21.2.*-*" />
-    <PackageReference Include="DevExpress.RichEdit.Export" Version="21.2.*-*" />
-    <PackageReference Include="DevExpress.Printing.Core" Version="21.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Charts" Version="21.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Reporting" Version="21.2.*-*" />
-    <PackageReference Include="DevExpress.Data.Desktop" Version="21.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Core" Version="21.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Printing" Version="21.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Themes.Office2016White" Version="21.2.*-*" />
+    <PackageReference Include="DevExpress.Charts.Core" Version="22.2.*-*" />
+    <PackageReference Include="DevExpress.Data" Version="22.2.*-*" />
+    <PackageReference Include="DevExpress.Mvvm" Version="22.2.*-*" />
+    <PackageReference Include="DevExpress.Pdf.Core" Version="22.2.*-*" />
+    <PackageReference Include="DevExpress.Office.Core" Version="22.2.*-*" />
+    <PackageReference Include="DevExpress.RichEdit.Core" Version="22.2.*-*" />
+    <PackageReference Include="DevExpress.RichEdit.Export" Version="22.2.*-*" />
+    <PackageReference Include="DevExpress.Printing.Core" Version="22.2.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Charts" Version="22.2.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Reporting" Version="22.2.*-*" />
+    <PackageReference Include="DevExpress.Data.Desktop" Version="22.2.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Core" Version="22.2.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Printing" Version="22.2.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Themes.Office2016White" Version="22.2.*-*" />
     <PackageReference Include="System.Data.OleDb" Version="5.0.0" />
   </ItemGroup>
   <ItemGroup>
